@@ -2,7 +2,7 @@
 import { createRoot } from "react-dom/client";
 import App from "./App";
 
-createRoot(document.getElementById("root")).render(<App></App>);
+createRoot(document.getElementById("root")).render(<App />);
 
 //!JS Way---
 // const div = document.getElementById("root");

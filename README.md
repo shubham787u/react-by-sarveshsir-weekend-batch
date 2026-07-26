@@ -48,7 +48,7 @@ Install with npm - no
 * No this keyword
 * Hooks
 
-
+## compact folder- on setting
 
 
 
