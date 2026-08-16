@@ -8,6 +8,11 @@ import Parent from "./All_Topics/03_props/Parent";
 import UserContext from "./All_Topics/04_ContextAPI/UserContext";
 import HomePgae from "./All_Topics/04_ContextAPI/HomePgae";
 import ControlledForms from "./All_Topics/05_Forms/ControlledForms";
+import ProductsList from "./All_Topics/06_list/ProductsList";
+import UserList from "./All_Topics/06_list/UserList";
+import SideEffects from "./All_Topics/07_SideEffects/SideEffects";
+import Routing from "./All_Topics/08_Routing/Routing";
+import Optimization from "./All_Topics/09_Optimization/Optimization";
 
 function App() {
   return (
@@ -21,12 +26,17 @@ function App() {
       {/* <Counter /> */}
       {/* <Counter1 /> */}
       {/* <Parent /> */}
-      
+
       {/* <UserContext>
         <HomePgae />
       </UserContext> */}
 
-      <ControlledForms />
+      {/* <ControlledForms /> */}
+      {/* <UserList /> */}
+      {/* <ProductsList /> */}
+      {/* <SideEffects /> */}
+      {/* <Routing /> */}
+      <Optimization />
     </div>
   );
 }
