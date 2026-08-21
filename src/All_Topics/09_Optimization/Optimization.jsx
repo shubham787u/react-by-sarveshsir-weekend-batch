@@ -38,7 +38,7 @@ const Optimization = () => {
 export default Optimization;
 
 //! useCallback
-// a React Hook that caches (memoizes) a function definition between component re-renders,  By default, every time a component re-renders, all functions declared inside it are recreated from  scratch , useCallback prevents this recreation by maintaing the same function reference across renders unless its dependencies changes.
+//It's a React Hook that caches (memoizes) a function definition between component re-renders, By default, every time a component re-renders, all functions declared inside it are recreated from scratch, useCallback prevents this recreation by maintaing the same function reference across renders unless its dependencies change.
 
 //! useMemeo
-//a built in React hook designed to optimize performances by caching (memoizing) the result of a calculation between component re-renders by default, React re-calculates everything inside your component on every single render,
+//IT is built-in React hook designed to optimize performances by caching (memoizing) the result of a calculation between component re-renders by default, React re-calculates everything inside your component on every single render, usememo stops this behaviors for intensive operations, only re-renning them when specific dependencies change.

@@ -14,6 +14,7 @@ import SideEffects from "./All_Topics/07_SideEffects/SideEffects";
 import Routing from "./All_Topics/08_Routing/Routing";
 import Optimization from "./All_Topics/09_Optimization/Optimization";
 
+
 function App() {
   return (
     <div>
@@ -35,8 +36,8 @@ function App() {
       {/* <UserList /> */}
       {/* <ProductsList /> */}
       {/* <SideEffects /> */}
-      {/* <Routing /> */}
-      <Optimization />
+      <Routing />
+      {/* <Optimization /> */}
     </div>
   );
 }

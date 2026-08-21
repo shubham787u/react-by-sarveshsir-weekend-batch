@@ -1,11 +1,10 @@
-import React, { useContext } from "react";
+import { useContext } from "react";
 import { storeRoom } from "./UserContext";
 
 const Navbar = () => {
-    
   //!step3 : Consume a context
   let x = useContext(storeRoom);
-//   console.log(x);
+  //   console.log(x);
 
   return (
     <div

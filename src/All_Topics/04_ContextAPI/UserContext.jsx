@@ -1,7 +1,7 @@
-import React, { createContext } from "react";
+import { createContext } from "react";
 import HomePgae from "./HomePgae";
 
-//!step1 : create a context and export it
+//!step1: create a context and export it
 export const storeRoom = createContext(); //return ContextObject
 
 //!step2: provie a context
@@ -12,9 +12,7 @@ const UserContext = (props) => {
   return (
     <div>
       <h1> I am Context File</h1>
-      <storeRoom.Provider value={data1}>
-        {props.children}
-        </storeRoom.Provider>
+      <storeRoom.Provider value={data1}>{props.children}</storeRoom.Provider>
     </div>
   );
 };
