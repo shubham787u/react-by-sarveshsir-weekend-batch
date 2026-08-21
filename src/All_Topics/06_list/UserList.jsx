@@ -16,6 +16,9 @@ const UserList = () => {
         return (
           <section key={ele.id}>
             <h3>{ele.name}</h3>
+            <button>Hire me</button>
+            <button>Edit</button>
+            <button>Delete</button>
           </section>
         );
       })}

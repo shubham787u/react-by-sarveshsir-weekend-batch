@@ -10,5 +10,5 @@ const Child = (props) => {
   );
 };
 
-//! here we use React.memo()
+//! here we use React.memo() // That is work like memoised the components value, 
 export default React.memo(Child);
