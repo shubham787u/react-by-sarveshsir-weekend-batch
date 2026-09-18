@@ -7,7 +7,7 @@ export const storeRoom = createContext(); //return ContextObject
 //!step2: provie a context
 const UserContext = (props) => {
   console.log(props);
-  let data1 = "Admin";
+  let data1 =   "Admin";
 
   return (
     <div>
